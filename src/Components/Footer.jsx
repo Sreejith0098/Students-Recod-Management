@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <>
       <div
-        style={{ backgroundColor: "black", color: "white" }}
-        className="conatiner-fluid   "
+        style={{ backgroundColor: "black", color: "white", marginTop:'-100px' }}
+        className="conatiner-fluid  ps-4 "
       >
         <h4>The University</h4>
 
