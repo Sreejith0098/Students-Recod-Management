@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const StudentTable = () => {
-  return (
-    <div>StudentTable</div>
-  )
-}
+  return <div>StudentTable</div>;
+};
 
-export default StudentTable
+export default StudentTable;
