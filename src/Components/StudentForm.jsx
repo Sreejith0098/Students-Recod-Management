@@ -25,7 +25,7 @@ const StudentForm = () => {
       >
         <Form.Control type="email" placeholder="name@example.com" />
       </FloatingLabel>
-      <button  className="btn border btn-primary">Submit</button>
+      <button  className="btn border btn-primary ">Submit</button> 
       </div>
     </>
   );

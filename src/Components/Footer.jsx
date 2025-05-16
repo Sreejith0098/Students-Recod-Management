@@ -6,10 +6,21 @@ const Footer = () => {
   return (
     <>
       <div
-        style={{ backgroundColor: "black", color: "white", marginTop:'-100px' }}
+        style={{
+          backgroundColor: "black",
+          color: "white",
+          marginTop: "-100px",
+        }}
         className="conatiner-fluid  ps-4 "
       >
-        <h4>The University</h4>
+        <img
+          style={{ width: "33px" }}
+          src="https://images-platform.99static.com/nK0Z_sdR6pVTLL97Gq1z5TkG3vQ=/102x102:921x921/500x500/top/smart/99designs-contests-attachments/71/71057/attachment_71057015"
+          alt=""
+        />
+        <span style={{ fontSize: "20px" }} className="fw-bolder  ">
+          The University
+        </span>
 
         <div style={{ display: "flex", justifyContent: "space-evenly" }}>
           <div>

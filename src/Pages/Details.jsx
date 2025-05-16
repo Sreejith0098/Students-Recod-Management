@@ -1,8 +1,11 @@
 import React from 'react'
+import StudentTable from '../Components/StudentTable'
 
 const Details = () => {
   return (
-    <div>Details</div>
+    <div>
+      <StudentTable />
+    </div>
   )
 }
 
