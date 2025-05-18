@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import './App.css'
@@ -8,16 +7,14 @@ import Details from './Pages/Details'
 import Home from './Pages/Home'
 import './bootstrap.min-2.css'
 function App(){
-  const[empData,setEmpData] = useState({
-    studen
-  })
+  
   return (
     <>
     <Header />
 
 <Routes>
   <Route path='/' element={<Landing />}/>
-  <Route path='/details' element={<Details />}/>
+  <Route path='/details' element={<Details  />}/>
   <Route path='/home' element={<Home/>}/>
 </Routes>
     <Footer />
