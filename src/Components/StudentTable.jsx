@@ -1,6 +1,6 @@
-import React from "react";
 import Table from "react-bootstrap/Table";
 const StudentTable = () => {
+  
   return (
     <div
       style={{ marginTop: "100px", marginBottom: "460px", marginLeft: "60px" }}
